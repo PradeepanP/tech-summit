@@ -2,7 +2,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     min-height: 100vh;
     margin: 0;
@@ -114,7 +113,7 @@ section h2 {
     color: #94A3B8;
 }
 
-/* Cards */
+/* Cards & Grid Lists */
 
 section ul {
     display: grid;
@@ -135,6 +134,38 @@ section li {
 section li:hover {
     transform: translateY(-2px);
     border-left-color: #38BDF8;
+}
+
+/* Testimonials */
+
+.testimonial-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.testimonial-card .quote {
+    font-style: italic;
+    color: #E2E8F0;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.testimonial-card .author {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.testimonial-card .author strong {
+    color: #38BDF8;
+}
+
+.testimonial-card .author span {
+    color: #94A3B8;
+    font-size: 13px;
 }
 
 /* Register button */
@@ -219,7 +250,8 @@ footer {
     padding: 25px;
     background-color: #0B0F19;
     border-top: 1px solid rgba(255, 255, 255, 0.08);
-    color: #64748B;}
+    color: #64748B;
+}
 
 /* Services / Highlights Grid */
 
@@ -262,15 +294,6 @@ footer {
 /* Mobile Responsiveness */
 
 @media (max-width: 700px) {
-    .services-section ul {
-        grid-template-columns: 1fr;
-    }
-}
-
-/* Mobile */
-
-@media (max-width: 700px) {
-
     header {
         padding: 20px;
     }
@@ -299,7 +322,8 @@ footer {
         padding: 0 15px;
     }
 
-    section ul {
+    section ul,
+    .services-section ul {
         grid-template-columns: 1fr;
     }
 
