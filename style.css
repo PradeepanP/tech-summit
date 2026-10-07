@@ -18,6 +18,14 @@ header {
     padding: 20px 40px;
     background-color: #0F172A; /* Sleek slate navy header */
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    background-image: url(images/tech-header.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
 }
 
 .top-row {
