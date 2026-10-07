@@ -15,7 +15,8 @@ body {
 /* Header */
 
 header {
-    padding: 20px 40px;
+    padding: 50px 40px;
+    min-height: 190px;
     background-color: #0F172A; /* Sleek slate navy header */
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
     background-image: url(images/tech-header.jpeg);
@@ -26,6 +27,11 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px 40px;
+    margin-right: 10px;
+}
+
+.logoimg{
+    margin-right: 10px;
 }
 
 .top-row {
