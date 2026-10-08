@@ -25,7 +25,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 10px;
+    height: 180px;
+    padding: 8px 30px;
     min-height: 100px;
 }
 
